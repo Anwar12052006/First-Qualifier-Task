@@ -55,11 +55,23 @@ button:disabled {
 .landing button.first {
   background-color: #6c25ff;
   color: #ffffff;
+  /* transition: background-color 0.1s ease; */
+
 }
 
 .landing button.second {
   background-color: #6c25ff4b;
   color: #1d2226;
+  transition: background-color 0.1s ease;
+
+}
+
+.first.flash {
+  background-color: #6c25ff ;
+}
+
+.flash {
+  background-color: 			#b5afe6 !important;
 }
 
 .profile {
